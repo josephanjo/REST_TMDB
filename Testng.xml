@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TMDB Test Suite">
+	<test name="TMDB">
+		<classes>
+			<class name="com.TMDB.testCases.TC01_SearchMovies" />
+			<class name="com.TMDB.testCases.TC02_RateMovie" />
+			<class name="com.TMDB.testCases.TC03_SearchMovieFromIMDB" />
+			<class name="com.TMDB.testCases.TC04_MarkMovieAsFavorite" />
+			<class name="com.TMDB.testCases.TC05_MarkMovieAsFav_InvalidAPIKey" />
+			<class name="com.TMDB.testCases.TC06_MarkMovieAsFav_InvalidMovieID" />
+			<class name="com.TMDB.testCases.TC07_UnmarkMovieAsFavorite" />
+			<class name="com.TMDB.testCases.TC08_CreateList" />
+			<class name="com.TMDB.testCases.TC09_DeleteList" />
+			<class name="com.TMDB.testCases.TC10_DeleteInvalidListID" />
+			<class name="com.TMDB.testCases.TC11_DeleteListInvalidSessionID" />
+			<class name="com.TMDB.testCases.TC12_DeleteListInvalidAPIKey" />
+		</classes>
+
+	</test>
+
+</suite>

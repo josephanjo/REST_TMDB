@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TMDB Test Suite]">
+  <test thread-count="5" name="TMDB(failed)">
+    <classes>
+      <class name="com.TMDB.testCases.TC09_DeleteList">
+        <methods>
+          <include name="deleteList"/>
+        </methods>
+      </class> <!-- com.TMDB.testCases.TC09_DeleteList -->
+    </classes>
+  </test> <!-- TMDB(failed) -->
+</suite> <!-- Failed suite [TMDB Test Suite] -->

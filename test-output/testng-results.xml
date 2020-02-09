@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TMDB Test Suite" duration-ms="10663" started-at="2020-02-08T19:51:00 PST" finished-at="2020-02-08T19:51:10 PST">
+    <groups>
+    </groups>
+    <test name="TMDB" duration-ms="10663" started-at="2020-02-08T19:51:00 PST" finished-at="2020-02-08T19:51:10 PST">
+      <class name="com.TMDB.testCases.TC02_RateMovie">
+        <test-method status="PASS" signature="rateMovie()[pri:0, instance:com.TMDB.testCases.TC02_RateMovie@43814d18]" name="rateMovie" duration-ms="876" started-at="2020-02-08T19:51:03 PST" finished-at="2020-02-08T19:51:04 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rateMovie -->
+      </class> <!-- com.TMDB.testCases.TC02_RateMovie -->
+      <class name="com.TMDB.testCases.TC12_DeleteListInvalidAPIKey">
+        <test-method status="PASS" signature="deleteListInvalidApiKey()[pri:0, instance:com.TMDB.testCases.TC12_DeleteListInvalidAPIKey@1dfe2924]" name="deleteListInvalidApiKey" duration-ms="380" started-at="2020-02-08T19:51:10 PST" finished-at="2020-02-08T19:51:10 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteListInvalidApiKey -->
+      </class> <!-- com.TMDB.testCases.TC12_DeleteListInvalidAPIKey -->
+      <class name="com.TMDB.testCases.TC11_DeleteListInvalidSessionID">
+        <test-method status="PASS" signature="deleteListInvalidSessionId()[pri:0, instance:com.TMDB.testCases.TC11_DeleteListInvalidSessionID@35d176f7]" name="deleteListInvalidSessionId" duration-ms="408" started-at="2020-02-08T19:51:09 PST" finished-at="2020-02-08T19:51:10 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteListInvalidSessionId -->
+      </class> <!-- com.TMDB.testCases.TC11_DeleteListInvalidSessionID -->
+      <class name="com.TMDB.testCases.TC10_DeleteInvalidListID">
+        <test-method status="PASS" signature="deleteListInvalidListId()[pri:0, instance:com.TMDB.testCases.TC10_DeleteInvalidListID@551aa95a]" name="deleteListInvalidListId" duration-ms="788" started-at="2020-02-08T19:51:09 PST" finished-at="2020-02-08T19:51:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteListInvalidListId -->
+      </class> <!-- com.TMDB.testCases.TC10_DeleteInvalidListID -->
+      <class name="com.TMDB.testCases.TC01_SearchMovies">
+        <test-method status="PASS" signature="searchMovies()[pri:0, instance:com.TMDB.testCases.TC01_SearchMovies@610694f1]" name="searchMovies" duration-ms="3358" started-at="2020-02-08T19:51:00 PST" finished-at="2020-02-08T19:51:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMovies -->
+      </class> <!-- com.TMDB.testCases.TC01_SearchMovies -->
+      <class name="com.TMDB.testCases.TC04_MarkMovieAsFavorite">
+        <test-method status="PASS" signature="markMovieFavorite()[pri:0, instance:com.TMDB.testCases.TC04_MarkMovieAsFavorite@3701eaf6]" name="markMovieFavorite" duration-ms="783" started-at="2020-02-08T19:51:04 PST" finished-at="2020-02-08T19:51:05 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markMovieFavorite -->
+      </class> <!-- com.TMDB.testCases.TC04_MarkMovieAsFavorite -->
+      <class name="com.TMDB.testCases.TC03_SearchMovieFromIMDB">
+        <test-method status="PASS" signature="searchMoviefromImdb()[pri:0, instance:com.TMDB.testCases.TC03_SearchMovieFromIMDB@5c5a1b69]" name="searchMoviefromImdb" duration-ms="444" started-at="2020-02-08T19:51:04 PST" finished-at="2020-02-08T19:51:04 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMoviefromImdb -->
+      </class> <!-- com.TMDB.testCases.TC03_SearchMovieFromIMDB -->
+      <class name="com.TMDB.testCases.TC07_UnmarkMovieAsFavorite">
+        <test-method status="PASS" signature="UnmarkMovieFavorite()[pri:0, instance:com.TMDB.testCases.TC07_UnmarkMovieAsFavorite@2758fe70]" name="UnmarkMovieFavorite" duration-ms="1251" started-at="2020-02-08T19:51:06 PST" finished-at="2020-02-08T19:51:07 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnmarkMovieFavorite -->
+      </class> <!-- com.TMDB.testCases.TC07_UnmarkMovieAsFavorite -->
+      <class name="com.TMDB.testCases.TC05_MarkMovieAsFav_InvalidAPIKey">
+        <test-method status="PASS" signature="markMovieFavoriteInvalidApi()[pri:0, instance:com.TMDB.testCases.TC05_MarkMovieAsFav_InvalidAPIKey@627551fb]" name="markMovieFavoriteInvalidApi" duration-ms="483" started-at="2020-02-08T19:51:05 PST" finished-at="2020-02-08T19:51:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markMovieFavoriteInvalidApi -->
+      </class> <!-- com.TMDB.testCases.TC05_MarkMovieAsFav_InvalidAPIKey -->
+      <class name="com.TMDB.testCases.TC06_MarkMovieAsFav_InvalidMovieID">
+        <test-method status="PASS" signature="markMovieFavoriteInvalidMovieId()[pri:0, instance:com.TMDB.testCases.TC06_MarkMovieAsFav_InvalidMovieID@2b552920]" name="markMovieFavoriteInvalidMovieId" duration-ms="447" started-at="2020-02-08T19:51:06 PST" finished-at="2020-02-08T19:51:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markMovieFavoriteInvalidMovieId -->
+      </class> <!-- com.TMDB.testCases.TC06_MarkMovieAsFav_InvalidMovieID -->
+      <class name="com.TMDB.testCases.TC09_DeleteList">
+        <test-method status="FAIL" signature="deleteList()[pri:0, instance:com.TMDB.testCases.TC09_DeleteList@578486a3]" name="deleteList" duration-ms="444" started-at="2020-02-08T19:51:08 PST" finished-at="2020-02-08T19:51:09 PST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [422]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [422]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.TMDB.testCases.Common_Methods.responseStatusCodeValidation(Common_Methods.java:115)
+at com.TMDB.testCases.TC09_DeleteList.deleteList(TC09_DeleteList.java:53)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteList -->
+      </class> <!-- com.TMDB.testCases.TC09_DeleteList -->
+      <class name="com.TMDB.testCases.TC08_CreateList">
+        <test-method status="PASS" signature="createList()[pri:0, instance:com.TMDB.testCases.TC08_CreateList@1f36e637]" name="createList" duration-ms="899" started-at="2020-02-08T19:51:07 PST" finished-at="2020-02-08T19:51:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createList -->
+      </class> <!-- com.TMDB.testCases.TC08_CreateList -->
+    </test> <!-- TMDB -->
+  </suite> <!-- TMDB Test Suite -->
+</testng-results>
